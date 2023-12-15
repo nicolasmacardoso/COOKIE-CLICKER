@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 id="cookies">Cookies: 0</h1>
+        <h2 id="vovos">Você não possui cookies sendo produzidos a cada segundo.</h2>
+        <h2 id="cursores">Você está gerando 1 cookie por clique.</h2>
+        <button id="clicker" onclick="clicar()"><img src="cookie.png" id="clickerImg" alt=""></button>
+        <br> <br>
+        <button id="dps" onclick="vovo()">Comprar vovó <br> (10 cookies)</button>
+        <p id="errorVovo"></p>
+        <button id="click" onclick="cursor()">Comprar cursor <br> (10 cookies)</button>
+        <p id="errorCursor"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
