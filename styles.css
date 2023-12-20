@@ -43,7 +43,7 @@ button:hover {
     margin-top: 10px;
 }
 
-#errorVovo, #errorCursor {
+#errorVovo, #errorCursor, #errorSupervovo, #errorSecreto {
     color: red;
     margin-top: 5px;
 }
@@ -61,4 +61,15 @@ button:hover {
 
 #clicker img:hover {
     transform: scale(1.1);
+}
+
+#dezvezes {
+    display: none;
+    margin: auto;
+}
+
+#supervovos {
+    display: none;
+    margin: auto;
+    margin-top: 5% !important;
 }
