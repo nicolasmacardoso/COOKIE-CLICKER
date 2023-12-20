@@ -32,7 +32,7 @@ function vovo() {
         dps.innerHTML = 'Comprar vovó <br> (' + v.toFixed(0) + ' cookies)';
         errorVovo.innerHTML = "" 
         qntdVovos === 1 ? vovos.innerHTML = "Você possui " + qntdVovos + " vovó que produz " + qntdVovos + " cookie por segundo" : 
-                        vovos.innerHTML = "Você possui " + qntdVovos + " vovós jhmjque produzem " + qntdVovos + " cookies por segundo"; 
+                        vovos.innerHTML = "Você possui " + qntdVovos + " vovós que produzem " + qntdVovos + " cookies por segundo"; 
         errorCursor.innerHTML = "" 
     }
     else {
