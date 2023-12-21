@@ -21,13 +21,9 @@ var cookiesPorVovo = 0;
 var cookiesPorSegundo;
 
 function verificarBotaoSecreto() {
-    if (qntdCookies >= precoSecreto) {
-        dezvezes.style.display = 'block';
-        supervovos.style.display = 'block';
-    } else {
-        dezvezes.style.display = 'none';
-        supervovos.style.display = 'none';
-    }
+    var displayStyle = qntdCookies >= precoSecreto ? 'block' : 'none';
+    dezvezes.style.display = displayStyle;
+    supervovos.style.display = displayStyle;
 }
 
 function secreto() {
@@ -35,7 +31,6 @@ function secreto() {
     cookies.innerHTML = 'Cookies: ' + qntdCookies.toFixed(0);
 
     precoSecreto *= 10;
-
     clickPower *= 10;
 
     dezvezes.innerHTML = 'SUPER CURSOR<br> (' + precoSecreto + ' cookies)';
