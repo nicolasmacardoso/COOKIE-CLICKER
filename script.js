@@ -46,9 +46,9 @@ function supervovo() {
         qntdCookies -= precoSecreto;
         cookies.innerHTML = 'Cookies: ' + qntdCookies.toFixed(0);
 
-        precoSecreto *= 10;
+        precoSecreto *= 5;
 
-        cookiesPorVovo *= 15;
+        cookiesPorVovo *= 10;
 
         supervovos.innerHTML = 'SUPER VOVÓ<br> (' + precoSecreto + ' cookies)';
         dezvezes.innerHTML = 'SUPER CURSOR<br> (' + precoSecreto + ' cookies)';
