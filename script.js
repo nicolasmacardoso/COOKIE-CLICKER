@@ -48,7 +48,7 @@ function supervovo() {
 
         precoSecreto *= 10;
 
-        cookiesPorVovo *= 20;
+        cookiesPorVovo *= 15;
 
         supervovos.innerHTML = 'SUPER VOVÓ<br> (' + precoSecreto + ' cookies)';
         dezvezes.innerHTML = 'SUPER CURSOR<br> (' + precoSecreto + ' cookies)';
